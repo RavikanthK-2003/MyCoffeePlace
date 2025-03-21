@@ -1,0 +1,27 @@
+.hero-section {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  width: 30%;
+  color: black;
+  text-align: left;
+}
+.hero-section h1 {
+  font-size: 48px;
+  color: black;
+}
+.hero-section p {
+  color: black;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.hero-section button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
