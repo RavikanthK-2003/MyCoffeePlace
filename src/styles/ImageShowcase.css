@@ -54,3 +54,27 @@
   text-align: left;
   margin-right: 10px;
 }
+
+
+@media (max-width: 1024px) { /* Mobile */
+  .image-showcase {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30%;
+    margin-left: 20%;
+    padding: 10px;
+  }
+  .small-img {
+    width: 160px;
+    height: 140px;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) { /* Small Mobile */
+  .small-img {
+    width: 140px;
+    height: 120px;
+  }
+}

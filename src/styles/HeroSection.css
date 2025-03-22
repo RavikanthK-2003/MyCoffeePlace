@@ -40,4 +40,34 @@
   border: 1px solid black;
 }
 
+@media (max-width: 1024px) { /* Mobile */
+  .hero-section {
+    position: static;
+    transform: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero-section h1 {
+    font-size: 32px;
+  }
+  .hero-section p {
+    font-size: 14px;
+  }
+  .hero-section button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
 
+@media (max-width: 480px) { /* Small Mobile */
+  .hero-section h1 {
+    font-size: 24px;
+  }
+  .hero-section p {
+    font-size: 12px;
+  }
+  .hero-section button {
+    width: 100%;
+  }
+}
